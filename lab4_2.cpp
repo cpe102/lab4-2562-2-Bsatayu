@@ -6,8 +6,15 @@ double findDistance(double u, double a, double t){
 } 
 
 int main(){
-
-  cout << "S =" << findDistance(5,4,3);
+  double u,a,t;
+  cout << "enter u";
+  cin >> u;
+  cout << "enter a";
+  cin >> a;
+  cout << "enter t";
+  cin >> t;
+  
+   cout << "S =" << findDistance(u,a,t);
 
   return 0;
 }
