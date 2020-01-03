@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int findDistance(int u,a,t){
-     return u*t+(1/2)*a*t^2; 
+double findDistance(double u, double a, double t){
+     return u*t+(0.5)*a*(t*t); 
 } 
 
 int main(){
 
-  int (u=0,a=0.5,t=1);
-  cout << "S = " << findDistance(u,a,t);
+  cout << "S =" << findDistance(5,4,3);
 
   return 0;
 }
