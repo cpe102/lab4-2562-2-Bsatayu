@@ -1,12 +1,14 @@
-#include<iostream>
-
+#include <iostream>
 using namespace std;
 
-//Write function findDistance() here
+int findDistance(int u,a,t){
+     return u*t+(1/2)*a*t^2; 
+} 
 
 int main(){
 
-  //Calling findDistance() using test cases
+  int (u=0,a=0.5,t=1);
+  cout << "S = " << findDistance(u,a,t);
 
   return 0;
 }
